@@ -1,0 +1,60 @@
+.cards {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    background-color: #e5f4ec;
+    margin: 20px;
+  }
+  
+  .cards > div {
+    flex: 1;
+  margin: 10px 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  }
+  .cards > div img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+  }
+  
+  
+  .card1-text, .card2-text, .card3-text {
+    margin-top: 10px;
+  }
+
+  .card1{
+    background-color: rgb(199, 178, 219);
+  }
+
+  .card2{
+    background-color: rgb(190, 222, 197);
+  }
+  
+  .card3{
+    background-color: rgb(227, 237, 176);
+  }
+
+  .subhead {
+    font-size: 1.5rem; /* Increase font size */
+    font-weight: bold; /* Use font-weight to make text bold */
+    font-family: 'Arial', sans-serif; /* Change font family */
+  }
+
+  .card1 .content, .card2 .content, .card3 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px; /* Add spacing between image and text */
+  }
+
+  .card1-img{
+    width: 70rem;
+  }

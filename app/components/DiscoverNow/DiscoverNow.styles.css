@@ -1,0 +1,79 @@
+.discoverNow {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin: 40px;
+    
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px; /* Adjust margin as needed */
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    overflow: hidden; /* Ensure rounded corners are applied */
+}
+
+.text-container-discover {
+    flex: 1;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Align content vertically */
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+.text-container-discover h2 {
+    font-weight: 350px;
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+.text-container-discover ul {
+    margin-top: 10px; /* Adjust margin as needed */
+    padding-left: 20px; /* Indent list items */
+    list-style-type: none; /* Remove default bullet points */
+}
+
+.text-container-discover ul li {
+    margin-bottom: 5px; /* Adjust margin as needed */
+}
+
+/* Add a green circle around the checkmark */
+.text-container-discover ul li:before {
+    content: "\2713"; /* Unicode checkmark symbol */
+    display: inline-block;
+    width: 1em; /* Adjust as needed */
+    margin-right: 5px; /* Adjust spacing between checkmark and text */
+    color: #000000; /* White color for the checkmark */
+    background-color: #39bc39; /* Green background */
+    border-radius: 50%; /* Rounded border to create a circle */
+    text-align: center; /* Center align the checkmark */
+    font-size: 0.8em; /* Adjust checkmark size */
+    line-height: 1em; /* Ensure the checkmark is vertically centered */
+    padding: 2px; /* Adjust padding to control circle size */
+}
+
+/* Style the Discover Now button */
+.discover-btn {
+    border: 1px solid #000000; /* Green border */
+    background-color: transparent; /* Transparent background */
+    color: #040404; /* Green text color */
+    border-radius: 10px; /* Rounded border */
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+/* Move the Discover Now button to the left */
+.text-container-discover .discover-btn {
+    margin-left: 0; /* Adjust margin as needed */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.discover-btn:hover {
+    background-color: #39bc39; /* Green background color on hover */
+    color: #fff; /* White text color on hover */
+}

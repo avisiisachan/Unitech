@@ -1,0 +1,44 @@
+/* FeedbackCard.styles.css */
+
+/* FeedbackCard.styles.css */
+
+.feedback-card-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+   
+  }
+  
+  .feedback-card {
+    background-color: #f9f9f9;
+    border: 2px solid #4b5563;
+    border-radius: 20px;
+    padding: 20px;
+    height: 250px; /* Set a fixed height for consistent card sizes */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+  }
+  
+  .feedback-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .feedback-card p {
+    margin-bottom: 10px;
+  }
+  
+  .feedback-card h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .feedback-card p {
+    font-size: 16px;
+    color: #000000;
+  }
+  

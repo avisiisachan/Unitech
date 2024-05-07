@@ -1,0 +1,15 @@
+.reviews-main h1{
+    color: black;
+    font-size: 35px;
+    margin-left: 67px;
+}
+.reviews-main h3{
+    color: rgb(53, 53, 53);
+  font-size: 17px;
+  margin-left: 67px;
+}
+
+.reviews-main{
+    margin-left: 80px;
+    margin-right: 80px;
+}

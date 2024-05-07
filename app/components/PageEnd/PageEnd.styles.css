@@ -1,0 +1,61 @@
+/* PageEnd.styles.css */
+.pageEnd {
+    background-color: #1e271c; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 40px 20px; /* Add padding for spacing */
+    padding-top: 100px;
+    margin-top: 100px;
+  }
+  
+  .pageEnd-container1,
+  .pageEnd-container2,
+  .pageEnd-container3,
+  .pageEnd-container4,
+  .pageEnd-container5 {
+    padding: 0 10px; /* Adjust padding for container spacing */
+  }
+  
+  .pageEnd-container1 h1 {
+    font-size: 24px; /* Increase font size for the heading */
+    margin-bottom: 10px; /* Add margin below the heading */
+  }
+  
+  .text {
+    font-size: 14px; /* Adjust font size for the text */
+    margin-bottom: 10px; /* Add margin below the text */
+  }
+  
+  .logo-btns button {
+    background-color: transparent; /* Make button background transparent */
+    transition: color 0.3s;
+    width: 40px; /* Set fixed width */
+    height: 40px; /* Set fixed height */
+    margin-right: 10px; /* Add margin between buttons */
+    padding: 5px; /* Adjust padding for button size */
+    
+  }
+  
+  .logo-btns button img {
+    width: 20px; /* Adjust image size */
+  }
+  
+  .category-heading {
+    font-size: 18px; /* Increase font size for category headings */
+    margin-bottom: 10px; /* Add margin below the heading */
+  }
+  
+  .pageEnd-container2 button,
+  .pageEnd-container3 button,
+  .pageEnd-container4 button,
+  .pageEnd-container5 button {
+    margin-bottom: 5px; /* Add margin between buttons */
+    color: #565656;
+  }
+  
+  .logo-btns button:hover,
+.pageEnd-container2 button:hover,
+.pageEnd-container3 button:hover,
+.pageEnd-container4 button:hover,
+.pageEnd-container5 button:hover {
+  color: #379037; /* Change text color to green on hover */
+}

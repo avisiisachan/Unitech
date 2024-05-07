@@ -1,0 +1,70 @@
+.exploreMore {
+  display: flex;
+  color: black;
+  margin: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.text-container h2{
+  font-weight: 350px;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.text-container h3 {
+  margin: 0;
+  font-weight: 250px;
+  font-size: 22px;
+}
+
+.text-container {
+  flex: 1;
+  margin-top: 150px;
+}
+
+.text-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-row {
+  margin-top: 20px;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.text-container li {
+  margin-top: 10px;
+}
+
+.text-container li text {
+  margin-top: 5px;
+}
+
+.exploreMore-btn {
+  border: 1px solid #000000; /* Black border */
+  background-color: transparent; /* Transparent background */
+  color: #000000; /* Black text color */
+  border-radius: 10px; /* Rounded border */
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.exploreMore-btn:hover {
+  background-color: #39bc39; /* Black background color on hover */
+  color: #ffffff; /* White text color on hover */
+}

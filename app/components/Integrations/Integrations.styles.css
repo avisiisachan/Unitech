@@ -1,0 +1,62 @@
+.integrations {
+    align-content: center;
+    padding:150px 150px ;
+    background-color: rgb(38, 39, 38);
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  
+  
+  .integration-heading {
+    font-size: 40px;
+    font-weight: 200px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  
+  .integration-text {
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  
+  .integrations-images-row {
+    display: flex;
+    justify-content: center; /* Center align images */
+    align-items: center; /* Center align images */
+  }
+  
+  .integrations-images-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to create multiple rows if needed */
+    justify-content: center; /* Center align images horizontally */
+    gap: 20px; /* Add gap between images */
+  }
+  
+  .integration-bttn{
+    margin-bottom: 100px;
+    margin-top: 30px;
+  }
+ 
+  .arrow-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px; /* Adjust size of circle */
+    height: 35px; /* Adjust size of circle */
+    border-radius: 50%; /* Make it a circle */
+    background-color: #39bc39; /* Green background color */
+    margin-right: 10px; /* Adjust margin between arrow-circle and button */
+}
+
+.arrow-circle span {
+    color: rgb(0, 0, 0); /* Color of the arrow */
+    font-size: 20px; 
+    font-weight: 200px;/* Adjust size of arrow */
+}
+
+  
