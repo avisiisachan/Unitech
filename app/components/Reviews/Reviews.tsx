@@ -78,7 +78,6 @@ const Reviews = () => {
           responsive={responsive}
           autoPlay={true} // Make carousel auto-moving
           autoPlaySpeed={3000} // Set the speed of auto-moving (in milliseconds)
-          showDots={false} // Hide the pagination dots
           arrows={false} // Hide default arrows
         >
           {/* Map over the duplicated feedback data and render FeedbackCard for each feedback */}
