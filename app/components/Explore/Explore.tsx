@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Explore.styles.css';
+
 const Explore = () => {
   const [email, setEmail] = useState('');
 
@@ -25,25 +26,22 @@ const Explore = () => {
       </div>
   
       <div className="container">
-  <div className="grid grid-cols-4">
-    <div className="col-span-1 flex justify-center">
-      <img src="/Images/side-card1.jpg" className="small-image1" />
-    </div>
-    <div className="col-span-2 flex justify-center">
-      <img src="/Images/img-big-comp.jpg" className="big-image" />
-    </div>
-    <div className="col-span-1 flex justify-center">
-      <div className="flex flex-col"> {/* Use flex-column to stack images vertically */}
-        <img src="/Images/side-card2.jpg" className="small-image2" />
-        <img src="/Images/side-card3.svg" className="small-image3" />
+        <div className="grid grid-cols-4">
+          <div className="col-span-1 flex justify-center">
+            <img src="/Images/side-card1.jpg" alt="Side Card 1" className="small-image1" />
+          </div>
+          <div className="col-span-2 flex justify-center">
+            <img src="/Images/img-big-comp.jpg" alt="Big Image" className="big-image" />
+          </div>
+          <div className="col-span-1 flex justify-center">
+            <div className="flex flex-col"> {/* Use flex-column to stack images vertically */}
+              <img src="/Images/side-card2.jpg" alt="Side Card 2" className="small-image2" />
+              <img src="/Images/side-card3.svg" alt="Side Card 3" className="small-image3" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-
-
-  </div>
   );
 };
 
