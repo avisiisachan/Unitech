@@ -11,7 +11,7 @@ const DiscoverNow = () => {
       <div className='text-container-discover'>
   <div className="text-column">
     <h2>Initiating your business evolution with unitech</h2>
-    <div>It's the catalyst for the evolution of your business. Seamlessly integrate groundbreaking solutions that lay the foundation for your upward trajectory.</div>
+    <div>Its the catalyst for the evolution of your business. Seamlessly integrate groundbreaking solutions that lay the foundation for your upward trajectory.</div>
     <ul>
       <li>Smart Solutions for Intelligent Growth</li>
       <li>Innovate for Industry Leadership</li>

@@ -6,7 +6,7 @@ const Integrations = () => {
     <div className='integrations'>
         <div className='integrations-background'>
         <div className="integration-text-row">
-    <h1 className="integration-heading">Integrating Your Workflow with Unitech's</h1>
+    <h1 className="integration-heading">Integrating Your Workflow with Unitechs</h1>
     <div className="integration-text">In the dynamic landscape of business operations, the key to unlocking optimal efficiency lies in the seamless integration of your workflow.</div>
     <div className="integration-btn-container">
         <div className="arrow-circle">
